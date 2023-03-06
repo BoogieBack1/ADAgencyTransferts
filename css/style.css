@@ -1,0 +1,83 @@
+
+/*Police pour le gras*/
+@font-face {
+    font-family: 'latoblack';
+    src: url('/fonts/lato-black-webfont.eot');
+    src: url('/fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-black-webfont.woff2') format('woff2'),
+         url('/fonts/lato-black-webfont.woff') format('woff'),
+         url('/fonts/lato-black-webfont.svg#latoblack') format('svg');
+}
+
+/*Police normal*/
+@font-face {
+    font-family: 'latoregular';
+    src: url('/fonts/lato-regular-webfont.eot');
+    src: url('/fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('/fonts/lato-regular-webfont.woff') format('woff'),
+         url('/fonts/lato-regular-webfont.svg#latoregular') format('svg');
+}
+
+*
+{
+    font-family: 'latoregular';
+}
+/*GENERAL*/
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/geneva-g54bf1549a_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/*1ere Case*/
+
+h1 
+{
+    font-family: 'latoblack';
+    margin: 5%;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.parag1
+{
+    margin: 5%;
+    padding: 1ch 3ch;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.image-left 
+{
+    margin-right: 1em;
+    max-width: 15%;
+    height: auto;
+}
+  
+.text-with-image 
+{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    padding: 2ch 3ch;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.footer1 {
+    margin: 5%;
+    padding: 1ch 3ch;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+  
+
