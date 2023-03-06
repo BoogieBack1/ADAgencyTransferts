@@ -2,21 +2,21 @@
 /*Police pour le gras*/
 @font-face {
     font-family: 'latoblack';
-    src: url('fonts/lato-black-webfont.eot');
-    src: url('fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/lato-black-webfont.woff2') format('woff2'),
-         url('fonts/lato-black-webfont.woff') format('woff'),
-         url('fonts/lato-black-webfont.svg#latoblack') format('svg');
+    src: url('/fonts/lato-black-webfont.eot');
+    src: url('/fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-black-webfont.woff2') format('woff2'),
+         url('/fonts/lato-black-webfont.woff') format('woff'),
+         url('/fonts/lato-black-webfont.svg#latoblack') format('svg');
 }
 
 /*Police normal*/
 @font-face {
     font-family: 'latoregular';
-    src: url('fonts/lato-regular-webfont.eot');
-    src: url('fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/lato-regular-webfont.woff2') format('woff2'),
-         url('fonts/lato-regular-webfont.woff') format('woff'),
-         url('fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    src: url('/fonts/lato-regular-webfont.eot');
+    src: url('/fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('/fonts/lato-regular-webfont.woff') format('woff'),
+         url('/fonts/lato-regular-webfont.svg#latoregular') format('svg');
 }
 
 *
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    background-image: url("img/geneva-g54bf1549a_1920.jpg");
+    background-image: url("/img/geneva-g54bf1549a_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
